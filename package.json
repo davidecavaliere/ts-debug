@@ -1,5 +1,5 @@
 {
-  "name": "ts-debug",
+  "name": "@microgamma/ts-debug",
   "version": "0.1.0",
   "description": "typescript decorator for easy log",
   "main": "build/main/index.js",

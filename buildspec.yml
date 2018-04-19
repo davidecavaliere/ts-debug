@@ -18,3 +18,5 @@ phases:
       - echo Build completed on `date`
       - echo listing directory
       - ls -al
+      - echo checking enviromental variables
+      - echo $NPM_TOKEN
