@@ -16,5 +16,5 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - listing directory
+      - echo listing directory
       - ls -al
