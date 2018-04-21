@@ -1,3 +1,5 @@
+![Build Status](https://codebuild.eu-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiUnljbDkvdmc3cjcvWUNYV2tBZzNMRURRUkp2d25EeWlzR0pHTWtMNndxU2xEcThRRCs2VUZsUzVGdmNlV0RBSDNHbEhranRENVlqdXdNTEhvQ2sxOElZPSIsIml2UGFyYW1ldGVyU3BlYyI6IjBiYmI4VEl5eG5MRDkyNTIiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+
 # ts-debug
 
 typescript decorator for easy log
