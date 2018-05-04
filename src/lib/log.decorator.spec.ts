@@ -13,7 +13,7 @@ class TestClass {
   private $l;
 
   constructor() {
-    this.$l('constructing', this);
+    // this.$l.d('constructing', this);
   }
 }
 let instance: TestClass;
@@ -22,10 +22,10 @@ setNamespace('ns2');
 
 class TestClassNS2 {
   @Log()
-  private $l: IDebugger;
+  private $l;
 
   constructor() {
-    this.$l('test 2nd ns');
+    this.$l.d('test 2nd ns');
   }
 }
 
@@ -35,10 +35,10 @@ setNamespace('ns3');
 
 class TestClassNS3 {
   @Log()
-  private $l: IDebugger;
+  private $l;
 
   constructor() {
-    this.$l('test 3nd ns');
+    this.$l.d('test 3nd ns');
   }
 }
 
