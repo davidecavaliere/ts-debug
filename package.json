@@ -1,6 +1,6 @@
 {
   "name": "@microgamma/ts-debug",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "typescript decorator for easy log",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
@@ -69,6 +69,7 @@
     "prettier": "^1.10.2",
     "standard-version": "^4.0.0",
     "trash-cli": "^1.4.0",
+    "ts-jest": "^22.4.4",
     "tslint": "^5.4.3",
     "tslint-config-prettier": "^1.8.0",
     "tslint-immutable": "^4.5.1",
@@ -100,6 +101,20 @@
   "nyc": {
     "exclude": [
       "**/*.spec.js"
+    ]
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
     ]
   }
 }
