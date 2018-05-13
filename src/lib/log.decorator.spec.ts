@@ -1,7 +1,6 @@
 // tslint:disable:no-expression-statement, max-classes-per-file
 import { test } from 'ava';
 import { Log, setNamespace } from './log.decorator';
-import { IDebugger } from 'debug';
 import 'reflect-metadata';
 
 
@@ -21,6 +20,7 @@ let instance: TestClass;
 setNamespace('ns2');
 
 class TestClassNS2 {
+
   @Log()
   private $l;
 
