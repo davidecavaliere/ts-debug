@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.1"></a>
+## [0.3.1](https://github.com/davidecavaliere/ts-debug/compare/v0.3.0...v0.3.1) (2018-05-13)
+
+
+### Bug Fixes
+
+* setting namespace is now effective ([96390d2](https://github.com/davidecavaliere/ts-debug/commit/96390d2))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/davidecavaliere/ts-debug/compare/v0.2.6...v0.3.0) (2018-05-04)
 
